@@ -1,0 +1,36 @@
+.p1{
+    height: 600px;
+    width: 600px;
+    background-color: green;
+    position: relative;
+}
+.p2{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position:absolute;
+    left: 0;
+    right: 0;
+    top:0; 
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+.na{
+    border: 2px solid yellow;
+    margin-top: 20px;
+    width: 100px;
+    background-color: aqua;
+    color: black;
+    position: sticky;
+    top: 0;
+
+}
+p{
+    padding-bottom: 1000px;
+}
+.tut{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

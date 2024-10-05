@@ -1,0 +1,56 @@
+.boz{
+
+
+    height: 300px;
+    width:200px;
+border: 10px solid green;
+    border-radius: 50%;
+    margin: 10px auto;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   animation: boz 2s infinite forwards;
+
+}
+.boss{
+    height: 100px;
+    width: 100px;
+    border: 10px solid yellow;
+    animation: boss 2s infinite forwards;
+    
+}
+@keyframes boz{
+0%{
+background-color: aqua;transform: scale(1)
+};
+20%{background-color: blueviolet;
+    transform: scale(1.4);}
+40%{background-color:forestgreen;
+    transform: scale(1.6);}
+75%{background-color:chocolate;
+    transform: scale(1.7);}
+100%{background-color:blue;
+    transform: scale(2);}
+}
+@keyframes boss{
+    0%{
+        transform: rotateX('0deg');border-width: 10px;
+    }
+    25%{
+        background-color: black;border-width: 20px;
+
+    }
+    50%{
+        background-color: red;border-width: 20px;
+        
+    }
+    75%{
+        background-color:yellow;border-width: 20px;
+        
+    }
+    100%{
+        transform: rotateX('360deg');
+    }
+
+}
+

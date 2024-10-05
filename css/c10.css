@@ -1,0 +1,16 @@
+h1:nth-child(3)
+{color: blueviolet;}
+p::first-letter{
+    color: aqua;
+    size: 50px;
+}
+h2::after{
+   content:url(download.png);
+}
+img{
+    width: 200px;
+}
+img:hover{
+    opacity: .5;
+    
+}

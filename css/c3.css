@@ -1,0 +1,21 @@
+.fa-brands{
+    font-size: 200px;
+    color:rebeccapurple;
+}
+a{
+    color: aqua;
+    text-decoration: none;
+    background-color: brown;
+    font-size: 200px;
+}
+a:hover{
+    color: blueviolet;
+    background-color: brown;
+}
+a:active{
+    color: yellow;
+    background-color: lime;
+}
+a:visited{
+    color: mediumvioletred;
+    background-color: black;}

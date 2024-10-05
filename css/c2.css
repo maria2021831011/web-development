@@ -1,0 +1,24 @@
+h1{
+    color: aquamarine;
+    background-color: red;
+    text-align: center;
+}
+p{
+    color: blueviolet;
+    text-transform: capitalize;
+    text-indent: 25px;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+    line-height: 30px;
+}
+.h2{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 100;}
+.p1{
+    
+        font-family: "New Amsterdam", sans-serif;
+        
+    font-weight: 100;
+    font-size: medium;
+}

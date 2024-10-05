@@ -1,0 +1,37 @@
+.boz{
+
+
+    height: 300px;
+    width:200px;
+    background-color: yellow;
+    position: relative;
+    margin: 10px auto;
+    animation-name: square;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-iteration-count: ;
+    animation-direction:alternate;
+    animation-fill-mode:  backwards;
+animation-play-state: running
+;
+}
+@keyframes square{
+    0%{background-color: aqua;
+    left:0;
+right: 0;}
+20%{background-color: blueviolet;
+    left:300px;
+right: 0;}
+40%{background-color:forestgreen;
+    left:0;
+right: 500px;
+border-radius: 50%;}
+75%{background-color:chocolate;
+    left:500px;
+right: 500px;}
+100%{background-color:blue;
+    left:0;
+right: 0;
+border-radius: 0%;}
+}

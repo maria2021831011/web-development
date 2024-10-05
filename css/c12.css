@@ -1,0 +1,14 @@
+h1{
+    color: tomato;
+}
+h3{
+    color: rgb(red, green, blue);
+}
+p{
+    color: #000fff;
+}
+.k{
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to left top, green,blue);
+}

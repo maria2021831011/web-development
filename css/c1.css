@@ -1,0 +1,24 @@
+.p1{
+    border: 5px solid red;
+    border-radius: 25px;
+}
+#p2{
+    border: 5px dotted yellow;
+}
+.maria{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    border: 5px solid palevioletred;
+    margin: 40px 40px;
+    padding: 30px;
+}
+p{
+    color:wheat;
+}
+.p4{margin: 10px;
+    border: 5px solid green;
+    outline: 5px dotted yellow;
+    outline-offset: 10px;
+    color: aqua;
+}

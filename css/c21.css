@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+header{
+    width: 100%;
+    background-color: pink;
+    color: black;
+    display: flex;
+}
+.logo{font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 20px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul{
+    list-style: none;
+}
+ .navbar ul li{
+
+    background-color: aqua;
+    width:170px ;
+    border:1px solid black ;
+    height: 50px;
+    float: left;
+    text-align: center;
+    font-size:16px;
+    font-weight:bolt;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+text-decoration: none;
+justify-content: center;
+text-align: center;
+align-items: center;
+
+}
+.navbar ul li a:hover{
+    background-color: yellow;
+    transition:all ease-in;
+
+}
+.navbar ul ul{
+    display: none;
+}
+.navbar ul li:hover > ul{
+    display: block;
+}
+/*form start*/
+.for{
+
+    background-color: gold;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    margin:0px auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 10px;
+    margin-top: 10px;
+    border-radius: 5% ;
+    box-shadow:0 6px 8px 0 rgb(red, green, blue) 0 8px 7px 0 rgb(yellow pink blue) ;
+
+
+}
+.for input{
+    padding: 2px 4px;
+    border-radius: 50px;
+    border-color: yellowgreen;
+}
+.for .btn{
+    font-weight: bold
+    ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer stsrt*/
+footer{position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: bisque;
+    width: 100%;
+    color: black;
+}
+.n h1{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.k p{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    top: -30px;
+    position: relative;
+}
+.oo i{
+
+    font-size: 45px;
+    position: relative;
+    top: -20px;
+    padding: 10px;
+}
+.u{
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+    font-size: 44px;
+    line-height: 30px;
+}

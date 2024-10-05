@@ -1,0 +1,15 @@
+.bg
+{height: 400px;
+    width: 400px;
+    background: url(pexels-photo-443446.jpeg) no-repeat center;
+overflow: hidden;}
+.p{
+    font-size: 400px;
+}
+.v p{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 10px;
+    margin-top: 10px;
+    opacity: 0.5;
+}
