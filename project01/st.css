@@ -1,0 +1,515 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.c{ 
+    width: 100%;
+    height: 100vh;
+}
+
+a{
+text-decoration: none;
+}
+.ak{position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.ak a{letter-spacing: 3
+    ;
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rebeccapurple;
+}
+.du{
+    position: fixed;
+    top: 40px;
+    
+    right:  50px;
+    width: 200px;
+    height: 40px;
+    background-color:white;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10%;
+box-sizing: border-box;
+box-shadow: 3px 3px 3px rosybrown;
+z-index: 1;
+border: 1px solid
+wheat;
+
+
+
+}
+.suak input{
+    width: 150px;
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 1rem;
+padding: 0px 0px;}
+.suak input::placeholder{
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+letter-spacing: 2px;
+}
+.sec1{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-15%,-50%);
+}
+.sec1 img{
+    height: 300px;
+}
+.sec2{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-90%,-50%);
+
+}
+.sec2 h1{
+
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bold;
+margin: 0px;
+line-height: 40px;
+font-size: 2rem;
+text-transform: uppercase;
+letter-spacing: 2px;
+text-shadow: 2px 2px 2px black;
+}
+span{
+    color:palegreen
+}
+.btn{
+    height: 30px;
+    width: 60px;
+    margin-top: 10px;
+text-align: center;
+justify-content: center;
+align-items: center;
+background-color: blue;
+color: aliceblue;
+border-radius: 10% 10% 10% 10%/50% 50% 50% 50%;
+border: transparent !important
+;
+
+
+outline: none;
+display: flex;
+cursor: pointer;
+box-shadow: 2px 2px 3px rgb(red, green, blue);
+font-size: 1rem;
+font-family: serif;
+font-weight: 500px;;
+letter-spacing: .5px;
+}
+.btn:hover{
+    color: aliceblue;
+    background-color: brown;
+transition: all ease-in .5s;
+
+}
+.icons{
+
+    position: fixed;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+background-color: papayawhip;
+border-radius: 20px;
+box-shadow: 2px 3px 3px black;
+padding: 5px 0px;
+z-index: 1;
+}
+.icons a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px;
+}
+.icons a:hover .fa-facebook{
+color: brown;
+}
+.icons a:hover .fa-twitter
+{
+color: blueviolet;
+}
+.icons a:hover .fa-instagram{
+color: yellowgreen;
+} 
+.icons a:hover .fa-youtube{
+    color: palegreen;
+} 
+.s1{
+    width: 90%;
+    background-color: white;
+box-shadow: 3px 3px 30px rgb(226, 213, 220) ;
+display: flex;
+margin: 20px auto;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 40px 20px;
+margin-top: -60px;
+position: relative;
+border-radius: 10px;
+background-size: 1000px;
+
+}
+.s1 >h3{
+    
+    margin: 6px;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-shadow: 3x 3px 3px rgb(158, 37, 101)
+;
+
+justify-content: center;
+align-items: center;
+
+flex-wrap: wrap;
+
+
+}
+.box{
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+    flex-wrap: wrap;
+
+}
+.prod{
+
+    width: 250px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+border-radius: 8px;
+position: relative;
+margin: 10px 30px;
+}
+.prod img{
+    height: 155px;
+}
+.prod p{
+    color:blue;
+    font-size: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.prod a{
+    font-weight: bold;
+}
+
+.buy{
+    position: absolute;
+    width: 140px;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    left: 40%;
+    bottom: -16px;
+    color: antiquewhite;
+    transform: translateX(-50%);
+    border-radius: 15% 15% 15% 15%/50% 50% 50% 50%;
+    background: rebeccapurple;
+    animation: fade .2s;
+display: none;
+
+}
+.prod:hover .buy{
+    display: flex;
+}
+.prod:hover{
+    box-shadow: 2px 2px 30px rgb(104, 88, 97);
+}
+.about{
+    box-shadow: 3px 3px 30px rgb(226, 213, 220) ;
+    display: flex;
+    width: 90%;
+    margin: 50px auto;
+    padding: 30px;
+    justify-content: space-around
+    ;
+    align-items: center;
+margin-bottom:120px ;
+}
+.pp{
+    width: 40%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    ;
+}
+.pp img{
+height: 100%;
+width: 100%;
+object-fit: contain;
+}
+.pp h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+margin-bottom: 10px;
+}
+.pp h4{
+    margin-bottom: 10px;
+}
+.pp p{
+    color:brown;
+    font-weight: bold;
+}
+.w{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+    ;
+}
+.w h1{color: black;
+    font-size: 1.5rem;
+margin-bottom: 10px;}
+.jh{
+width: 300px;
+height: 40px;
+border-radius: 7% 7% 7% 7%/50% 50% 50% 50%;
+background-color:white;
+padding: 5px 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 2px 2px 30px gray;
+
+
+
+}
+.jh input{
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+}
+.dd{
+
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    display: flex;
+   color: antiquewhite;
+   transition: all ease-in .5s;
+   border-radius: 20%; background-color: rgb(110, 110, 235);
+}
+.dd:hover{
+   color: aqua; background-color: brown;
+}
+footer{padding: 10px;
+   
+   margin-top: -20px; background-color: black; 
+}
+footer >p{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    color: aliceblue;
+}
+/* Devices between 781px and 1024px (Tablets) */
+@media (min-width: 781px) and (max-width: 1024px) {
+    /* Adjusting the .ak > a (branding link) */
+    .ak a {
+        font-size: 1.5rem; /* Increase font size for larger screens */
+        letter-spacing: 2.5px; /* Slightly more letter spacing */
+    }
+span{
+    color:yellow;
+}
+    /* Adjusting the .du (search bar container) */
+    .du {
+        top: 30px;
+        right: 30px;
+        width: 180px; /* Slightly larger width */
+        height: 40px; /* Adjust height */
+        border-radius: 8%; /* Softer border radius */
+    }
+
+    /* Adjust the search input inside .du */
+    .suak input {
+        width: 140px; /* Adjust input width for tablet screens */
+        font-size: 1rem; /* Larger font size for better readability */
+    }
+
+    /* Adjusting .sec1 (image section) */
+    .sec1 {
+        left: 12%;
+        top: 50%;
+        transform: translate(-12%, -50%);
+    }
+
+    .sec1 img {
+        height: 250px; /* Slightly larger image size for tablets */
+    }
+
+    /* Adjusting .sec2 (text section next to the image) */
+    .sec2 {
+        left: 85%;
+        top: 50%; /* Centered with the image section */
+        transform: translate(-85%, -50%);
+    }
+
+    .sec2 h1 {
+        font-size: 2rem; /* Bigger font size for heading */
+        line-height: 35px; /* Adjust line height */
+    }
+
+    /* Adjusting the button in .sec2 */
+    .sec2 .btn {
+        width: 80px; /* Slightly larger button for tablets */
+        height: 35px; /* Adjust height */
+        font-size: 1rem; /* Font size for the button */
+    }
+
+    /* Adjusting the .icons section */
+    .icons {
+        left: 20px; /* Adjust icon position */
+        top: 50%;
+        padding: 15px 0; /* Increased padding */
+    }
+
+    .icons a {
+        padding: 18px; /* Increase padding for better clickability */
+    }
+
+    /* Adjusting the sections for product showcase */
+    .prod {
+        width: 300px; /* Larger product boxes */
+        height: 380px; /* Increase height */
+    }
+
+    .prod img {
+        height: 180px; /* Larger product image */
+    }
+
+    .prod p {
+        font-size: 1.1rem; /* Slightly larger font */
+    }
+
+    /* Adjusting the .buy button */
+    .buy {
+        width: 150px; /* Larger buy button */
+        height: 45px; /* Adjust height */
+        font-size: 1rem; /* Font size for the buy button */
+    }
+
+    /* About Section Adjustments */
+    .about .pp {
+        width: 45%; /* Wider section for content and image */
+    }
+
+    .about .pp h1 {
+        font-size: 2rem; /* Bigger heading for About section */
+    }
+
+    .about .pp p {
+        font-size: 1.1rem; /* Larger font size for description */
+    }
+
+    /* Newsletter Section Adjustments */
+    .w h1 {
+        font-size: 1.75rem; /* Larger text for heading */
+    }
+
+    .jh {
+        width: 350px; /* Wider subscription box */
+    }
+
+    .dd {
+        width: 120px; /* Bigger send button */
+        height: 35px; /* Adjust height */
+        font-size: 1rem; /* Font size for the send button */
+    }
+}
+
+/* Devices between 480px and 780px (small smartphones to tablets) */
+@media (min-width: 480px) and (max-width: 780px) {
+    /* Adjusting the .ak > a (branding link) */
+    .ak a {
+        font-size: 1.2rem; /* Adjust font size for mid-range screens */
+        letter-spacing: 2px; /* Adjust letter spacing */
+    }
+span{
+color: brown;
+}
+    /* Adjusting the .du (search bar container) */
+    .du {
+        top: 20px;
+        right: 20px;
+        width: 150px; /* Adjust width for mid-range screens */
+        height: 35px; /* Adjust height */
+        border-radius: 10%; /* Keep the rounded look */
+    }
+
+    /* Adjust the search input inside .du */
+    .suak input {
+        width: 110px; /* Slightly larger search input */
+        font-size: 0.8rem; /* Adjust font size */
+    }
+
+    /* Adjusting .sec1 (image section) */
+    .sec1 {
+        left: 10%;
+        top: 45%; /* Adjusted positioning */
+        transform: translate(-10%, -45%);
+    }
+
+    .sec1 img {
+        height: 200px; /* Adjusted image size for mid-range screens */
+    }
+
+    /* Adjusting .sec2 (text section next to the image) */
+    .sec2 {
+        left: 93%;
+        top: 45%; /* Adjusted positioning */
+        transform: translate(-85%, -45%);
+    }
+
+    .sec2 h1 {
+        font-size: 1rem; /* Smaller font size for heading */
+        line-height: 30px; /* Adjust line height */
+    }
+
+    /* Adjusting the button in .sec2 */
+    .sec2 .btn {
+        width: 60px; /* Adjust button width */
+        height: 30px; /* Adjust button height */
+        font-size: 0.9rem; /* Adjust button font size */
+    }
+
+    /* Adjusting the .icons section */
+    .icons {
+        left: 15px; /* Adjust icon position for mid-sized devices */
+        top: 50%;
+        padding: 10px 0; /* Slightly larger padding */
+    }
+
+    .icons a {
+        padding: 12px; /* Adjust icon padding */
+    }
+}
